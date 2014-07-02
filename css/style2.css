@@ -18,21 +18,12 @@ nav ul{
 }
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:none}
-a{
-	margin-right: -3px;
-	margin-left: -3px;
-	margin-bottom: -3px;
-	padding: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent
-}
 ins{background-color:#ff9;color:#000;text-decoration:none}
 mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
 del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+
 input,select{vertical-align:middle}
 /*End of Reset*/
 
@@ -80,9 +71,14 @@ body h1,h2,{
 	padding-bottom: 0px;
 }
 .top_nav span {
-  display: inline-block;
-  width: 100%;
-  height: 0;
+	display: inline-block;
+	width: 100%;
+	height: 0;
+	text-align: center;
+	font-family: advent-pro;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1rem;
 }
 ul{
 
@@ -112,7 +108,9 @@ a{
 	color: #B3382D;
 	display: inline-block;
 	text-decoration: none;
-
+	font-size: 2rem;
+	font-weight: 800;
+	margin-top: -7px;
 }
 a:hover !important {
 	font-style: italic;;
@@ -135,7 +133,7 @@ a:hover !important {
 }
 #article h1{
 	font-family: 'Lobster', cursive;
-	font-size: 1.9em;
+	font-size: 1.7rem;
 	padding: 10px 5px;
 	text-align: center;
 	margin-top: 0px;
@@ -143,8 +141,8 @@ a:hover !important {
 
 }
 #article h3{
-	font-size: 1.7em;
-	font-family: amatic-sc;
+	font-size: 1.4rem;
+	font-family: advent-pro;
 	padding: 10px 5px;
 	text-align: center;
 	margin-top: -5px;
@@ -153,8 +151,8 @@ a:hover !important {
 	font-weight: 400;
 }
 #article p{
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size: .9em;
+	font-family: advent-pro;
+	font-size: 1rem;
 	padding-top: 5.7px;
 	padding-right: 5.7px;
 	padding-left: 5.7px;
@@ -162,7 +160,7 @@ a:hover !important {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: 700;
 	text-align: justify;
 
 }
@@ -173,22 +171,24 @@ a:hover !important {
 }
 #nav_style ul li {
 	width: 168px;
-	height: 96px;
+	height: 105px;
 	text-align: center;
 	padding-top: 9px;
-	font-size: 1.5em;
-	margin-right: 0px;
+	font-size: 2rem;
 	padding-bottom: 9px;
 	padding-left: 0px;
+	font-family: amatic-sc;
+	font-style: normal;
+	font-weight: 700;
+	font-variant: small-caps;
 }
 #content {
 	height: auto;
 	width: 100%;
 	position: relative;
+	margin-top: 25px;
 }
 .container #content .staff {
-	padding-right: 24px;
-	background-image: url(../img/BACKGROUND.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0% -13px;
@@ -217,7 +217,7 @@ a:hover !important {
 	margin-top: 27px;
 }
 #jumbotron #jumbo_descri h1 {
-	font-size: 3em;
+	font-size: 3rem;
 	margin-top: 0px;
 	margin-bottom: 15px;
 	width: 70%;
@@ -226,16 +226,16 @@ a:hover !important {
 	color: #B3382D;
 }
 #jumbotron #jumbo_descri p {
-	font-size: 1.2em;
+	font-size: 1.2rem;
 	text-align: center;
 	width: 46.4%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 15px;
-	font-family: amatic-sc;
+	font-family: advent-pro;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 500;
 	color: 2E2E2E;
 	z-index: 149;
 }
@@ -269,26 +269,29 @@ ul li a:hover {
   height: 0;
 }
 li a .bottom_nav_link {
-	font-size: 17.7px;
+	font-size: 1.2rem;
 	text-align: center;
 	color: #000000;
 	height: 0px;
 	width: 112px;
-	font-weight: bold;
+	font-weight: 700;
+	font-family: advent-pro;
+	font-style: normal;
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
 #footer_style{
-	height: 137pt;
+	height: 317pt;
 
 }
 #footer_style nav #nav_style {
-	padding-top: 76px;
-	height: auto;
+	height: 192px;
 	background-image: url(../img/BACKGROUND.png);
 	background-size: cover;
 	background-position: 0% 105%;
 	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 242px;
 }
 .footer_bottom{
 	height: auto;
@@ -297,3 +300,45 @@ li a .bottom_nav_link {
 
 test 
 >>>>>>> origin/master
+.container hr {
+}
+hr {
+	height: 1.4px;
+	color: #B3382D;
+	background: #B3382D;
+	font-size: 0;
+	border: 0;
+	margin-top: 22px;
+}
+#testimonal #name h3 {
+	text-align: center;
+	font-family: amatic-sc;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2rem;
+	margin-top: 22px;
+	margin-bottom: 15px;
+}
+#testimonal #statement p {
+	text-align: center;
+	font-family: advent-pro;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.6rem;
+	margin-right: auto;
+	margin-left: auto;
+	width: 590px;
+}
+#testimonal #name h4 {
+	font-family: advent-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: small-caps;
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 329px;
+	margin-right: auto;
+	margin-left: auto;
+}
